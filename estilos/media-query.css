@@ -33,8 +33,8 @@
         width: 60%;
     }
     body,html{
-        background: #cfa486;
-        background: linear-gradient(60deg,rgba(207, 164, 134, 1) 0%, rgba(87, 199, 190, 1) 50%, rgba(39, 80, 113, 1) 93%);
+        background: #9fa37f;
+        background: linear-gradient(40deg,rgba(159, 163, 127, 0.94) 0%, rgba(29, 117, 110, 1) 32%, rgba(39, 80, 113, 1) 80%);
         
     }
 }
@@ -43,7 +43,7 @@
     section#login{
         width: 90vw;
         height: 70vh;
-        max-width: 990px;
+        max-width: 992px;
 
         transition: width 0.5s, height 0.5s;
     }
@@ -65,8 +65,8 @@
         width: 60%;
     }
     body, html{
-        background: #cfa486;
-        background: linear-gradient(60deg,rgba(207, 164, 134, 1) 0%, rgba(87, 199, 190, 1) 50%, rgba(39, 80, 113, 1) 93%);
+        background: #9fa37f;
+        background: linear-gradient(40deg,rgba(159, 163, 127, 0.94) 0%, rgba(29, 117, 110, 1) 32%, rgba(39, 80, 113, 1) 80%);
     }
 
 }

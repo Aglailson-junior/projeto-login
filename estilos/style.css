@@ -7,7 +7,7 @@ bege: #d8b49a
 */
 :root{
     --fundo1:#275071;
-    --cor1: #c9d1d6;
+    --cor1: #d7dde1;
     --cor2: #d8b49a;
 }
 
@@ -55,4 +55,9 @@ div#imagem{
 section#login >div#formulario{
     padding: 10px;
     display: block;
+}
+
+div#formulario > h1{
+    text-align: center;
+    padding: 5px;
 }
