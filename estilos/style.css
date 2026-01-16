@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*Paleta de cores:
+azul: #1f2a33
+cinza claro: #c9d1d6
+bege: #d8b49a
+*/
+:root{
+    --fundo1:#275071;
+    --cor1: #c9d1d6;
+    --cor2: #d8b49a;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: var(--fundo1);
+    height: 100vh;
+    width: 100vw;
+
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+section#login{
+    background-color: var(--cor1);
+    height: 550px;
+    width: 300px;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.539);
+}
+
+div#imagem{
+    background: var(--fundo1) url(../imagens/pexels-rlldied-10997877.jpg);
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    display: block;
+}
+
+section#login >div#formulario{
+    padding: 10px;
+    display: block;
+}

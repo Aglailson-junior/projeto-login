@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+:root{
+    --fundo1:#275071;
+    --cor1: #c9d1d6;
+    --cor2: #d8b49a;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section#login{
+        width: 80vw;
+        height: 70vh;
+
+        transition: width 0.5s, height 0.5s;
+        transition-timing-function: ease;
+
+    }
+    section#login > div#imagem{
+        background: var(--cor2) url(../imagens/pexels-karola-g-4938323.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100vh;
+        width: 30vw;
+        float: left;
+
+        transition: width 0.5s, height 0.5s;
+    }
+    section#login > div#formulario{
+        float: right;
+        height: 100vh;
+        width: 60%;
+    }
+    body,html{
+        background: #cfa486;
+        background: linear-gradient(60deg,rgba(207, 164, 134, 1) 0%, rgba(87, 199, 190, 1) 50%, rgba(39, 80, 113, 1) 93%);
+        
+    }
+}
+
+@media screen and (min-width: 992px){
+    section#login{
+        width: 90vw;
+        height: 70vh;
+        max-width: 990px;
+
+        transition: width 0.5s, height 0.5s;
+    }
+    section#login > div#imagem{
+        background: var(--cor2) url(../imagens/pexels-karola-g-4938323.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100vh;
+        width: 30vw;
+        float: left;
+
+        transition: width 0.5s, height 0.5s;
+        
+    }
+    section#login > div#formulario{
+        float: right;
+        height: 100vh;
+        width: 60%;
+    }
+    body, html{
+        background: #cfa486;
+        background: linear-gradient(60deg,rgba(207, 164, 134, 1) 0%, rgba(87, 199, 190, 1) 50%, rgba(39, 80, 113, 1) 93%);
+    }
+
+}
