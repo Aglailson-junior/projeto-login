@@ -7,9 +7,9 @@ bege: #d8b49a
 */
 :root{
     --fundo1:#275071;
-    --cor1: #e3e9ed;
     --cor2:#d8b49a;
     --cor3: #10b981;
+    --cor4: white;
 }
 
 *{
@@ -18,6 +18,7 @@ bege: #d8b49a
     margin: 0px;
     box-sizing: border-box;
 }
+
 
 body, html{
     background-color: var(--fundo1);
@@ -31,7 +32,7 @@ main{
     position: relative;
 }
 section#login{
-    background-color: var(--cor1);
+    background-color: var(--cor4) ;
     height: 550px;
     width: 300px;
     border-radius: 20px;
@@ -71,11 +72,34 @@ form > div.campo{
     background-color:#275071c3;
     margin: 5px 0px;
     border-radius: 8px;
-    padding: 5px 0px 7px;
+    padding: 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span{
+    color: var(--cor4);
+    font-size: 2em;
+    width: 40px;
+    padding: 6px 0px 0px 5px;
+    transform: translateY( 7px);
+       
+}
+
+div.campo > input{
+    background-color: lightgray;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 9vh;
+    border: 2px solid lightgray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+div.campo > input:focus-within{
+    background-color: var(--cor4);
 }
 
 form > input[type=submit]{

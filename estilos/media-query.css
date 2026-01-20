@@ -16,6 +16,7 @@
         transition-timing-function: ease;
 
     }
+
     section#login > div#imagem{
         background: var(--cor2) url(../imagens/pexels-karola-g-4938323.jpg) ;
         background-size: cover;
@@ -64,6 +65,7 @@
         height: 100vh;
         width: 60%;
     }
+
     body, html{
         background: #9fa37f;
         background: linear-gradient(40deg,rgba(159, 163, 127, 0.94) 0%, rgba(29, 117, 110, 1) 32%, rgba(39, 80, 113, 1) 80%);
