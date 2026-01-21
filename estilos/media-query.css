@@ -7,7 +7,8 @@
 }
 
 /*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 770px) and (max-width: 992px){
+
     section#login{
         width: 80vw;
         height: 70vh;
@@ -37,6 +38,10 @@
         background: #9fa37f;
         background: linear-gradient(40deg,rgba(159, 163, 127, 0.94) 0%, rgba(29, 117, 110, 1) 32%, rgba(39, 80, 113, 1) 80%);
         
+    }
+
+     div.campo input{
+        height: 50px;
     }
 }
 
